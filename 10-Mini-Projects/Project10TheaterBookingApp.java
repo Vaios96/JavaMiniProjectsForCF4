@@ -3,7 +3,7 @@ package gr.aueb.cf.projects;
 import java.util.Scanner;
 
 /**
- * Welcome to CF4's theater. The theater consists of 30 seats rows and 12 seat columns. With this app
+ * Welcome to CF4's theater. The theater consists of 30-seat rows and 12-seat columns. With this app
  * you are able to book your seat in theater. The seats are represented by a boolean 2 dimensional table.
  * False means that the seat is available to be booked. True means that someone already booked the seat.
  * You will be prompted by a menu to choose you action (book, cancel, check available seats, quit) and then asked
