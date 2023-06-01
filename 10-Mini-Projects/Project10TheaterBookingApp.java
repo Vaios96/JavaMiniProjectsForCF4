@@ -31,7 +31,7 @@ public class Project10TheaterBookingApp {
             if (choice.matches("[qQ]") || choice.equals("Q/q")) quit = true;
             else {
                 // If the user does not want to quit, the program checks if the user's action is valid. If not it informs the user and continues the loop, if it is a valid choice it proceeds with the
-                // proper actions checking that everything is in range with the use of methods. If a not valid seat is given it informs the user about the valid input range and continues with the loop
+                // proper actions checking that everything is in range with the use of methods. If an invalid seat is given it informs the user about the valid input range and continues with the loop
                 try {
                     action = Integer.parseInt(choice);
                     if (!isValid(action)) {
